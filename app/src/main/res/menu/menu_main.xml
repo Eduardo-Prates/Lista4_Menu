@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemes.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        android:title="Refresh"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+</menu>
